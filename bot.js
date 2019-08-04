@@ -10,7 +10,7 @@
     global.embed = discord.RichEmbed
     bot.config = require('./config.js')
     bot.prefix = bot.config.prefix
-    bot.whitelist = bot.config.whitelist
+    bot.whitelist = bot.config.whitelist 
     bot.commands = new Map()
     bot.owner;
     bot.invite;
