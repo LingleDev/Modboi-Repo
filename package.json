@@ -1,0 +1,22 @@
+{
+  "name": "modboi-canary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.7",
+    "ms": "^2.1.2",
+    "pastebin-js": "^1.0.2",
+    "snekfetch": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "restart": "node ."
+  },
+  "author": "",
+  "license": "ISC"
+}
