@@ -122,6 +122,7 @@
             const args = mArray.slice(1)
             const command = bot.commands.get(mArray[0].slice(bot.prefix.length))
 	    if (!message.content.startsWith(bot.prefix)) return;
+	    if (message.author.bot) return;
 
             if (message.content.startsWith("m!bean")) {
                 if (message.member.bannable) {
